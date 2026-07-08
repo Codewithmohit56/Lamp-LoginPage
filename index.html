@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Lamp Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="lamp-container">
+
+        <div class="wire"></div>
+        <div class="pull-switch"></div>
+
+        <div class="lamp-shade"></div>
+        <div class="lamp-stand"></div>
+        <div class="lamp-base"></div>
+
+        <div class="light-beam"></div>
+
+    </div>
+
+    <div class="login-form">
+
+        <h2>Welcome Back</h2>
+        <p class="login-subtitle">Please sign in to continue</p>
+
+        <div class="form-group">
+            <label for="username">Enter your Username</label>
+            <div class="input-box">
+                <span class="input-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Zm0 2c-3.33 0-6 1.79-6 4v1h12v-1c0-2.21-2.67-4-6-4Z"/></svg>
+                </span>
+                <input id="username" type="text" placeholder="Enter Username">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-box">
+                <span class="input-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M17 9h-1V7a4 4 0 0 0-8 0v2H7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2Zm-6-2a2 2 0 1 1 4 0v2h-4Z"/></svg>
+                </span>
+                <input id="password" class="password-input" type="password" placeholder="Enter Password">
+                <button type="button" class="toggle-password" aria-label="Show password">
+                    <svg viewBox="0 0 24 24"><path d="M12 5c-5 0-8.8 3.2-10 7 1.2 3.8 5 7 10 7s8.8-3.2 10-7c-1.2-3.8-5-7-10-7Zm0 12a5 5 0 1 1 5-5 5 5 0 0 1-5 5Zm0-8a3 3 0 1 0 3 3 3 3 0 0 0-3-3Z"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="form-options">
+            <label class="remember-me">
+                <input type="checkbox">
+                <span>Remember me</span>
+            </label>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+
+        <button class="sign-in-btn">Sign In</button>
+
+        <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
